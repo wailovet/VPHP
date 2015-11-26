@@ -1,0 +1,23 @@
+{
+    "name": "wailovet/vphp",
+    "description": "小工具",
+    "keywords": [
+    ],
+    "license": "MIT",
+    "require": {
+        "php":">=5.3",
+        "ext-mcrypt": "*"
+    },
+    "authors": [
+        {
+            "name": "wailovet",
+            "email": "wailovet@163.com"
+        }
+    ],
+    "minimum-stability" : "dev",
+    "autoload": {
+        "psr-4": {
+            "V\\": "src/"
+        }
+    }
+}
